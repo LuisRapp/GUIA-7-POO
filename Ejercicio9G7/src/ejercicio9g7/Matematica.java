@@ -60,7 +60,8 @@ public class Matematica {
 // Método calcularPotencia() para calcular la potencia del mayor valor de la clase
 //elevado al menor número. Previamente se deben redondear ambos valores.
     public void calcularPotencia() {
-   
+   //Math.pow(Math.round(Math.max(num1, num2)), Math.round(Math.min(num1, num2)
+    //   Math.pow(Math.round(Math.max( )))
      System.out.printf("la potencia de %.2f elevado a %.2f  es  %.2f \n" , Math.max(num1, num2), Math.min(num1, num2) , Math.pow(Math.round(Math.max(num1, num2)), Math.round(Math.min(num1, num2))));
     }
 // • Método calculaRaiz(), para calcular la raíz cuadrada del menor de los dos valores.

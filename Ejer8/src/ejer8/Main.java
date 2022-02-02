@@ -55,7 +55,7 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("Ingrese una frase para comparar la longitud");
-                    cadena.metodox(leer.next());
+                    cadena.compararLongitud(leer.next());
                     System.out.println(" ");
                     break;
                 case 5:

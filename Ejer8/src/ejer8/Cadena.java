@@ -60,7 +60,7 @@ public class Cadena {
     public void setLongitud(int longitud) {
         this.longitud = longitud;
     }
-
+////
     public void mostrarVocales() {
         int contVocales = 0;
         for (int i = 0; i < longitud; i++) {
@@ -81,7 +81,7 @@ public class Cadena {
     public void invertirFrase() {
         for (int i = longitud - 1; i >= 0; i--) {
             System.out.print(frase.charAt(i));
-
+         //  StringBuilder.reverse
         }
 
     }
@@ -100,7 +100,8 @@ public class Cadena {
     }
 ////////////////////////////////////
 
-    public void metodox(String frase) {
+    public void compararLongitud(String frase) {
+        //crear varaible .lenght
         if (this.frase.length() > frase.length()) {
             System.out.println("La frase ingresada es menor que la frase original");
         } else if (this.frase.length() < frase.length()) {
@@ -112,6 +113,8 @@ public class Cadena {
 /////////////////////////////////////////
 
     public void unirFrase(String frase) {
+        //.concat()
+
         System.out.println("Las frases unidas: " + this.frase + " " + frase);
     }
 
@@ -128,7 +131,7 @@ public class Cadena {
             if (frase.substring(i, i + 1).equals(letra)) {
                 System.out.println("La frase contiene la letra");
                 return true;
-
+//contains() 
             }
 
         }
